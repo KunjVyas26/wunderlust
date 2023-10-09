@@ -227,30 +227,34 @@
         <form>
             <div>
                 <label>First Name<span style="color: #DE0B63;">*</span></label>
-                <input style="border-radius:5px" id="fullname" type="text" autocomplete="name" required>
+                <input style="border-radius:5px" id="firstname" type="text" autocomplete="name" required>
             </div>
             <div>
                 <label>Last Name<span style="color: #DE0B63;">*</span></label>
-                <input style="border-radius:5px" id="email" type="text" autocomplete="name" required>
+                <input style="border-radius:5px" id="lastname" type="text" autocomplete="name" required>
             </div>
             
             <fieldset style="border-radius:5px">
                 <legend>Contact Method<span style="color: #DE0B63;">*</span></legend>
                 <input id="phone" type="radio" name="contact-method" value="phone" checked>
-                <label class="radio-label" for="phone-radio">Phone</label>
+                <label class="radio-label" for="phonenumber">Phone</label>
                 <input id="email" type="radio" name="contact-method" value="email">
-                <label class="radio-label" for="email-radio">Email</label>
+                <label class="radio-label" for="emailid">Email</label>
                 <input id="text" type="radio" name="contact-method" value="text" checked>
-                <label class="radio-label" for="text-radio">Text</label>
+                <label class="radio-label" for="phonenumberfortext">Text</label>
             </fieldset>
 
             <div>
                 <label>Email<span style="color: #DE0B63;">*</span></label>
-                <input style="border-radius:5px" id="phone" type="text" autocomplete="name" required>
+                <input style="border-radius:5px" id="emailid" type="text" autocomplete="name" required>
             </div>
             <div>
                 <label>Phone<span style="color: #DE0B63;">*</span></label>
-                <input style="border-radius:5px" id="phone" type="text" autocomplete="name" required>
+                <input style="border-radius:5px" id="phonenumber" type="text" autocomplete="name" required>
+            </div>
+            <div>
+                <label>Phone For Text<span style="color: #DE0B63;">*</span></label>
+                <input style="border-radius:5px" id="phonenumberfortext" type="text" autocomplete="name" required>
             </div>
 
             <label for="city">Destinations<span style="color: #DE0B63;">*</span></label>
