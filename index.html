@@ -20,12 +20,14 @@
         <p>
             Let Wunderlust Travel help you plan the trip of your dreams!
         </p>
-        <ul>
-            <li><a href="#Destinations">Destinations</a></li>
-            <li><a href="#Inspirations">Inspirations</a></li>
-            <li><a href="#Special">Special</a></li>
-            <li><a href="#ContactUs">Contact Us</a></li>
-        </ul>
+        <nav>
+            <ul>
+                <li><a href="#Destinations">Destinations</a></li>
+                <li><a href="#Inspirations">Inspirations</a></li>
+                <li><a href="#Special">Special</a></li>
+                <li><a href="#ContactUs">Contact Us</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main id="main-content">
@@ -125,7 +127,6 @@
             <h3>
                 Testimonials
             </h3>
-
             <section>
                 <img src="images/miranda-blake.png" alt="Miranda Blake">
                 <h4><b>Miranda Blake</b></h4>
@@ -145,7 +146,6 @@
                 <img src="images/ines-villegoes.png" alt="Inés Villegoes">
                 <h4><b>Inés Villegoes</b></h4>
                 <p>Traveling From: Barcelona, Spain</p>
-
                 <q>A very safe environment for all travelers.</q>
             </section>
             <section>
@@ -161,7 +161,6 @@
             <h3>
                 About Your Destination
             </h3>
-
             <section>
                 <h4><b>Size</b></h4>
                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-ruler-2" width="100"
@@ -218,15 +217,11 @@
             <h3>
                 Contact US
             </h3>
-
             <form method="post" action="https://wp.zybooks.com/form-viewer.php">
-
                 <label for="fName">First Name<span>*</span></label>
                 <input type="text" name="fName" id="fName" autocomplete="given-name" required>
-
                 <label for="lName">Last Name<span>*</span></label>
                 <input type="text" name="lName" id="lName" autocomplete="family-name" required>
-
                 <fieldset>
                     <legend>Contact Method<span>*</span></legend>
                     <input id="phone" type="radio" name="contact-method" value="phone" checked>
@@ -236,14 +231,10 @@
                     <input id="text" type="radio" name="contact-method" value="text">
                     <label class="radio-label" for="text">Text</label>
                 </fieldset>
-
-
                 <label for="emailid">Email<span>*</span></label>
                 <input id="emailid" name="email" type="email" autocomplete="email" required>
-
                 <label for="phonenumber">Phone<span>*</span></label>
                 <input id="phonenumber" name="phone" type="tel" autocomplete="tel" required>
-
                 <br>
                 <label for="city">Destinations<span>*</span></label>
                 <select id="city" name="destination" required>
@@ -271,8 +262,8 @@
                 <input type="submit" name="submit" id="submit" value="Submit">
             </form>
         </section>
-
     </main>
+
     <footer>
         <p>Copyright 2021 Wunderlust Travel</p>
         <a href="#">Privacy Statement</a>
